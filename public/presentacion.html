@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
-  </head><h1>Gerardo Weber</h1>
-  <h2>Economista argentino nacido en 1943 </h2>
-  <meta charset="UTF-8">
+  <head><h1>Gerardo Weber</h1>
+    <h2>Economista argentino nacido en 1943 </h2>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="varios.js" defer></script> 
+    <link rel="stylesheet" href="style.css">
     <title>Pagina Inicio</title>
   </head>
   <body>
-    <h2>Títulos</h2>
+    <div class="container">
+      <h1>información</h1>
+      <form id="opcion" onclick="iniciarFormulario()"> 
+          <div>
+            <button type="submit" id="titulos" >Títulos</button>
+          </div>
+          <div>
+            <button type="submit" id ="publiInternacional" >Publicaciones internacionales</button>
+          </div>
+          <button type="submit" id = "publiEspecializada" >Publicaciónes en Revistas Especializadas</button>
+      </form>
+  </div>
 
-    <h2>Publicaciones internacionales<h2></h2>
-    
-    <h2>Publicaciónes en Revistas Especializadas</h2></h1>
      
-    
-           </table>
     <p>Visita nuestra página <a href="https://www.ejemplo.com">Gerardo Weber</a> para más información.</p>
   </body>
 </html>
